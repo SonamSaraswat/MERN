@@ -9,15 +9,21 @@ const DisplayHome = () => {
     <>
     <Navbar/>
     <div className='mb-4'>
-      <h1 className='my-5 font-bold text-2xl'>Featured Charts</h1>
-      <div className='flex overflow-auto'>
-        {albumsData.map((item,index)=>(<AlbumItem Key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
+      <h1 className='my-5 font-bold text-2xl'>Forever Hits!</h1>
+      <div className='flex overflow-auto object-contain w-full h-full'>
+        {albumsData.map((item,index)=>(<AlbumItem key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
         </div>
     </div>
     <div className='mb-4'>
-      <h1 className='my-5 font-bold text-2xl'>Today's Biggest Hits</h1>
+      <h1 className='my-5 font-bold text-2xl'>Today's Biggest Artists</h1>
       <div className='flex overflow-auto'>
         {songsData.map((item,index)=>(<SongItem Key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
+        </div>
+    </div>
+    <div className='mb-4'>
+      <h1 className='my-5 font-bold text-2xl'>Forever Hits!</h1>
+      <div className='flex overflow-auto object-contain w-full h-full'>
+        {albumsData.map((item,index)=>(<AlbumItem Key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
         </div>
     </div>
     </>

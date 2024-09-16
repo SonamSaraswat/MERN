@@ -74,6 +74,7 @@ export const albumsData = [
         id:0,
         name: "Top 50 Global",
         image: img8,
+        file:song1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#2a4365"
     },
@@ -81,6 +82,7 @@ export const albumsData = [
         id:1,
         name: "Top 50 India",
         image: img9,
+        file:song1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#22543d"
     },
@@ -88,6 +90,7 @@ export const albumsData = [
         id:2,
         name: "Trending India",
         image: img10,
+        file:song1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#742a2a"
     },
@@ -95,6 +98,7 @@ export const albumsData = [
         id:3,
         name: "Trending Global",
         image: img16,
+        file:song1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#44337a"
     },
@@ -102,6 +106,7 @@ export const albumsData = [
         id:4,
         name: "Mega Hits",
         image: img11,
+        file:song1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#234e52"
     },
@@ -109,6 +114,7 @@ export const albumsData = [
         id:5,
         name: "Happy Favorites",
         image: img15,
+        file:song1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
     }
